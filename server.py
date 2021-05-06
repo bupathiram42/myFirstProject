@@ -5,9 +5,8 @@ bot = telegram_chatbot("config.cfg")
 
 
 def make_reply(msg):
-    reply = None
-    if msg is not None:
-        reply = gizoogle.text(msg)
+    reply = "Okay! Thank you for the message!"
+    
     return reply
 
 update_id = None
